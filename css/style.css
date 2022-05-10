@@ -5,23 +5,177 @@
 }
 
 body{
+    height: 600px;
     background-color: gray;
 }
 
 /*header*/
 header{
     background-color: white;
-    font-family :'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    font-family :Arial, sans-serif ;
 }
 
 #logo{
     vertical-align: middle;
     display: inline;
-    margin: 15px 0px;
+    margin: 30px 0px 30px 30px;
 }
 
 h1{
     vertical-align: middle;
     display: inline;
     font-size: 45px;
+}
+
+/*main*/
+
+main{
+    padding: 5% 15%;
+    
+}
+
+#selection{
+    height: 50px;
+    background-color: white;
+    border: 5px solid white;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+/*button*/
+
+#task{
+    height: 25px;
+    color: white;
+    margin: 15px 2px 0px 60px;
+    background-color: #3492ff;
+    border: 1px solid grey;
+    border-radius: 5px;
+
+}
+
+#section{
+    height: 25px;
+    color: grey;
+    background-color: white;
+    border: 1px solid grey;
+    border-radius: 5px;
+}
+
+.span-button{
+    padding: 10px;
+    font-size: 12px;
+}
+
+/*list*/
+
+#list{
+    height: 550px;
+    margin-top: 3px;
+    padding: 0px 60px;
+    background-color: white;
+    border: 5px solid white;
+}
+
+/*utility*/
+
+h3{
+    margin: 40px 0px 0px 0px;
+}
+
+ul{
+    list-style-type: none;
+    margin: 15px 0px;
+    padding: 0;
+}
+
+.line{
+    font-size: 16px;
+}
+
+/*check croos*/
+
+.check{
+    color: green;
+    background-color: white;
+    border: 1px solid green;
+    border-radius: 50%;
+    font-size: 15px;
+    margin: 5px;
+    padding: 3px;
+    font-size: 10px;
+}
+
+.croos{
+    color: red;
+    background-color: white;
+    border: 1px solid red;
+    border-radius: 50%;
+    font-size: 15px;
+    margin: 5px;
+    padding: 3px;
+    font-size: 10px;
+}
+
+
+/*color*/
+
+.blue{
+    height: 25px;
+    color: white;
+    background-color: #3492ff;
+    border: 1px solid white;
+    border-radius: 10px;
+    font-size: 8px;
+    padding: 5px;
+}
+
+.purple{
+    height: 25px;
+    color: white;
+    background-color: rgb(158, 120, 215);
+    border: 1px solid white;
+    border-radius: 10px;
+    font-size: 8px;
+    padding: 5px;
+}
+
+.green{
+    height: 25px;
+    color: white;
+    background-color: rgb(121, 198, 168);
+    border: 1px solid white;
+    border-radius: 10px;
+    font-size: 8px;
+    padding: 5px;
+}
+
+.orange{
+    height: 25px;
+    color: white;
+    background-color: orange;
+    border: 1px solid white;
+    border-radius: 10px;
+    font-size: 8px;
+    padding: 5px;
+}
+
+.pink{
+    height: 25px;
+    color: white;
+    background-color: rgb(218, 97, 161);
+    border: 1px solid white;
+    border-radius: 10px;
+    font-size: 8px;
+    padding: 5px;
+}
+
+.olive{
+    height: 25px;
+    color: white;
+    background-color: olive;
+    border: 1px solid white;
+    border-radius: 10px;
+    font-size: 8px;
+    padding: 5px;
 }
